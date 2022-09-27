@@ -158,7 +158,7 @@ ul {
     background-color: linen;
     margin:auto;
     min-width:330px;
-    padding: 50px 10px 25px 10px;
+    padding: 50px 10px 30px 10px;
     text-align: center;
     text-shadow: 0px 0px 0.5px indigo;
 
@@ -172,10 +172,6 @@ ul {
 }
 
 @media (max-width: 1125px) {
-
-    .portfolio-title {
-        margin-top:50px;
-    }
     
     .about p:nth-of-type(2) {
         margin-top:50px;
@@ -188,17 +184,9 @@ ul {
     .project-tile img {
         width:300px;
     }
-
-    #welcome-section {
-        padding: 35px 10px 15px 10px;
-    }
 }
 
 @media (max-width: 800px) {
-
-    .about p:nth-of-type(2) {
-        margin-top: 40px;
-    }
 
     #contacts {
         gap:70px;
@@ -213,16 +201,6 @@ ul {
         display:inline-block;
         font-size:x-small;
         margin:0 5px;
-    }
-
-    h1, h2 {
-        font-size:24px;
-        margin:10px 0;
-    }
-    
-    h3 {
-        font-size:20px;
-        margin:12px 0;
     }
 
     #navbar {
@@ -246,10 +224,6 @@ ul {
         margin: 16px 0px;
     }
 
-    .portfolio-title{
-        margin:35px 0 5px 0;
-    }
-
     #projects {
         gap:6px;
         padding:15px 5px;
@@ -258,14 +232,14 @@ ul {
     .project-tile img {
         width:240px;
     }
-
-    #welcome-section {
-        padding: 50px 10px 15px 10px;
-    }
 }
 
 
 @media (max-width: 550px) {
+
+    .about p:nth-of-type(2) {
+        margin-top: 40px;
+    }
 
     #contacts {
         gap:35px;
@@ -285,12 +259,12 @@ ul {
         margin: 14px 0px ;
     }
 
-    .project-tile img {
-        width:200px;
+    .portfolio-title{
+        margin:50px 0 5px 0;
     }
 
-    #welcome-section {
-        padding: 40px 5px 15px 5px;
+    .project-tile img {
+        width:200px;
     }
 }
 
@@ -309,6 +283,16 @@ ul {
     #contacts img {
         width:75px;
         height:75px;
+    }
+
+    h1, h2 {
+        font-size:24px;
+        margin:10px 0;
+    }
+    
+    h3 {
+        font-size:20px;
+        margin:12px 0;
     }
 
     #navbar li {
