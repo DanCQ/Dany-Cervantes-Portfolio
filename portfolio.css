@@ -3,7 +3,7 @@ a {
 }
 
 .portfolio-title {
-    font-family:"luminari";
+    font-family: "luminari", "zapfino", "Academy Engraved Let";
     margin-top:60px;
 }
 
@@ -71,12 +71,12 @@ footer li {
 }
 
 h1 {
-    font-family:"luminari";
+    font-family: "luminari", "Academy Engraved Let";
     font-size:30px;
 }
 
 h2 {
-    font-family: "snell roundhand";
+    font-family: "snell roundhand", "zapfino", "Academy Engraved Let";
     font-size:28px;
 }
 
@@ -85,11 +85,11 @@ h3 {
 }
 
 .hello {
-    font-family: "savoye let";
+    font-family: "savoye let", "brush script mt";
 }
 
 #navbar {
-    font-family:"luminari";
+    font-family: "luminari", "cochin" ;
     margin:10px;
     position:fixed;
     right:0;
@@ -139,7 +139,7 @@ p {
 }
 
 .project-tile figcaption {
-    font-family:"luminari";
+    font-family:"luminari", "cochin";
     font-weight:100;
 }
 
