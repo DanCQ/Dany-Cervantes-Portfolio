@@ -209,7 +209,7 @@ ul {
         background: linen;
         box-shadow: 0 0 10px 1px linen;
         margin:0 auto;
-        min-width:290px;
+        min-width:330px;
         width:100%;
         display:flex;
         justify-content: space-evenly;
