@@ -1,2 +1,3 @@
-# Dany-s-Portfolio
-Dany Cervantes - Work Portfolio
+# Dany Cervantes - Work Portfolio
+
+A collection of my best, and current work.
