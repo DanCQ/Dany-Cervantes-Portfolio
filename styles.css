@@ -1,0 +1,319 @@
+a {
+    text-decoration:none;
+}
+
+.portfolio-title {
+    font-family:"luminari";
+    margin-top:60px;
+}
+
+.about p:nth-of-type(2) {
+    margin-top:60px;
+}
+
+body {
+    font-family: "raleway", "roboto", "arial", sans-serif;
+    height:100%;
+    margin:0;
+    width:100%;
+}
+
+#contacts {
+    align-items: center;
+    background-color: ghostwhite;
+    display:flex;
+    flex-wrap: wrap;
+    gap:25px;
+    height:100vh;
+    justify-content:space-evenly;
+    min-width:330px;
+    padding:40px;
+    text-align: center;
+    text-shadow: 0px 0px 0.5px red;
+}
+
+#contacts a {
+    color:maroon;
+}
+
+#contacts img {
+    width:100px;
+    height:100px;
+}
+
+figcaption {
+    font-family:cochin;
+    font-weight:bold;
+    text-align: center;
+}
+
+figure {
+    margin:5px;
+}
+
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    font-family: monospace;
+    font-size:small;
+    justify-content:space-around;
+    padding:5px;
+}
+
+footer a {
+    color:brown;
+}
+
+footer li {
+    display:inline-block;
+    margin:0 30px;
+    padding-bottom:1px;
+}
+
+h1 {
+    font-family:"luminari";
+    font-size:30px;
+}
+
+h2 {
+    font-family: "snell roundhand";
+    font-size:28px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+.hello {
+    font-family: "savoye let";
+}
+
+#navbar {
+    font-family:"luminari";
+    margin:10px;
+    position:fixed;
+    right:0;
+    top:0;   
+}
+
+#navbar a {
+    color:darkgreen;
+}
+
+#navbar li {
+    margin:10px 5px;
+    text-shadow: 0px 0px 0.5px lime;
+}
+
+p {
+    font-size:18px;
+    line-height: 24px;
+    margin: 25px auto;
+    padding: 0px 10px;
+    text-align:center;
+}
+
+#projects {
+    align-items: center;
+    background-color: mintcream;
+    display:flex;
+    flex-wrap: wrap;
+    gap:4px;
+    height:100vh;
+    justify-content: space-around;
+    margin:auto;
+    min-width:330px;
+    padding:15px 5px;
+    text-align: center;
+}
+
+.project-tile {
+    background:linear-gradient(wheat,lightgoldenrodyellow);
+    border-radius:15px;
+    box-shadow: 0px 0px 5px 0.5px lightgoldenrodyellow;
+}
+
+.project-tile a {
+    color:coral;
+    text-shadow: 0px 0px 0.5px indigo;
+}
+
+.project-tile figcaption {
+    font-family:"luminari";
+    font-weight:100;
+}
+
+.project-tile img {
+    border-radius:10px;
+    width:400px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#welcome-section {
+    background-color: linen;
+    height:100vh;
+    margin:auto;
+    min-width:330px;
+    padding: 50px 10px 15px 10px;
+    text-align: center;
+    text-shadow: 0px 0px 0.5px indigo;
+
+}
+
+@media (max-width: 1275px) {
+
+    .project-tile img {
+        width:350px;
+    }
+}
+
+@media (max-width: 1125px) {
+
+    .portfolio-title {
+        margin-top:50px;
+    }
+    
+    .about p:nth-of-type(2) {
+        margin-top:50px;
+    }
+
+    .project-tile img {
+        width:300px;
+    }
+
+    #welcome-section {
+        padding: 35px 10px 15px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .about p:nth-of-type(2) {
+        margin-top: 40px;
+    }
+
+    #contacts {
+        gap:70px;
+    }
+
+    #contacts img {
+        width:95px;
+        height:95px;
+    }
+
+    footer li {
+        display:inline-block;
+        font-size:x-small;
+        margin:0 5px;
+    }
+
+    h1, h2 {
+        font-size:24px;
+        margin:10px 0;
+    }
+    
+    h3 {
+        font-size:20px;
+        margin:12px 0;
+    }
+
+    #navbar {
+        background: linen;
+        box-shadow: 0 0 10px 1px linen;
+        margin:0 auto;
+        min-width:290px;
+        width:100%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    #navbar li {
+        display:inline;
+        margin:0px 50px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height:21px;
+        margin: 16px 0px;
+    }
+
+    .portfolio-title{
+        margin:35px 0 5px 0;
+    }
+
+    #projects {
+        height:100vh;
+        gap:6px;
+        padding:10px 5px;
+    }
+
+    .project-tile img {
+        width:240px;
+    }
+
+    #welcome-section {
+        padding: 50px 10px 15px 10px;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    #contacts {
+        gap:35px;
+        padding:28px;
+    }
+
+    #contacts img {
+        width:85px;
+        height:85px;
+    }
+
+    #navbar li {
+        margin:0px 30px;
+    }
+
+    p {
+        margin: 14px 0px ;
+    }
+
+    .project-tile img {
+        width:200px;
+    }
+
+    #welcome-section {
+        padding: 40px 5px 15px 5px;
+    }
+}
+
+
+@media (max-width: 440px) {
+
+    .about p:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+    #contacts {
+        gap:20px;
+        padding:15px;
+    }
+
+    #contacts img {
+        width:75px;
+        height:75px;
+    }
+
+    #navbar li {
+        margin:0px 20px;
+    }
+
+    #projects {
+        height:150vh;
+    }
+}
