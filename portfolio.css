@@ -169,7 +169,7 @@ ul {
 @media (max-width: 1275px) {
 
     .project-tile img {
-        width:350px;
+        width:375px;
     }
 }
 
@@ -184,7 +184,7 @@ ul {
     }
 
     .project-tile img {
-        width:300px;
+        width:350px;
     }
 }
 
@@ -226,7 +226,7 @@ ul {
     }
 
     .project-tile img {
-        width:240px;
+        width:325px;
     }
 }
 
@@ -243,8 +243,8 @@ ul {
     }
 
     #contacts img {
-        width:85px;
-        height:85px;
+        width:90px;
+        height:90px;
     }
 
     #navbar li {
@@ -256,7 +256,7 @@ ul {
     }
 
     .project-tile img {
-        width:200px;
+        width:300px;
     }
 }
 
