@@ -27,7 +27,7 @@ body {
     justify-content:space-evenly;
     min-height:100vh;
     min-width:330px;
-    padding:40px;
+    padding:0px 40px;
     text-align: center;
     text-shadow: 0px 0px 0.5px red;
 }
@@ -124,7 +124,7 @@ p {
     margin:auto;
     min-width:330px;
     min-height:100vh;
-    padding:25px 5px;
+    padding:20px 5px;
     text-align: center;
 }
 
@@ -163,7 +163,7 @@ ul {
     margin:auto;
     min-width:330px;
     min-height: 100vh;
-    padding: 50px 10px 30px 10px;
+    padding: 50px 10px 10px 10px;
     text-align: center;
     text-shadow: 0px 0px 0.5px indigo;
 }
@@ -279,6 +279,6 @@ ul {
     }
 
     #welcome-section {
-    padding: 40px 10px 30px 10px;
+    padding: 40px 10px 10px 10px;
     }
 }
