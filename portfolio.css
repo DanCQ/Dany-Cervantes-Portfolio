@@ -2,9 +2,15 @@ a {
     text-decoration:none;
 }
 
-.portfolio-title {
-    font-family: "luminari", "zapfino", "Academy Engraved Let";
-    margin-top:60px;
+#about {
+    background-color: linen;
+    color:#23001E;
+    margin:auto;
+    min-width:330px;
+    min-height: 100vh;
+    padding:50px 10px 10px 10px;
+    text-align: center;
+    text-shadow: 0px 0px 0.5px indigo;
 }
 
 .about p:nth-of-type(2) {
@@ -114,6 +120,11 @@ p {
     text-align:center;
 }
 
+.portfolio-title {
+    font-family: "luminari", "zapfino", "Academy Engraved Let";
+    margin-top:60px;
+}
+
 #projects {
     align-items: center;
     background-color: mintcream;
@@ -157,16 +168,6 @@ ul {
     padding:0;
 }
 
-#welcome-section {
-    background-color: linen;
-    color:#23001E;
-    margin:auto;
-    min-width:330px;
-    min-height: 100vh;
-    padding: 50px 10px 10px 10px;
-    text-align: center;
-    text-shadow: 0px 0px 0.5px indigo;
-}
 
 @media (max-width: 1275px) {
 
@@ -177,6 +178,10 @@ ul {
 
 @media (max-width: 1125px) {
     
+    #about {
+        padding: 50px 85px 10px 10px;
+    }
+
     .about p:nth-of-type(2) {
         margin-top:50px;
     }
@@ -187,10 +192,14 @@ ul {
 
     .project-tile img {
         width:350px;
-    }
+    }    
 }
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
+
+    #about {
+        padding: 50px 10px 10px 10px;
+    }
 
     #contacts {
         gap:70px;
@@ -229,7 +238,7 @@ ul {
 
     .project-tile img {
         width:325px;
-    }
+    }    
 }
 
 
@@ -261,6 +270,10 @@ ul {
 
 @media (max-width: 440px) {
 
+    #about {
+    padding: 40px 10px 10px 10px;
+    }
+
     .about p:nth-of-type(2) {
         margin-top: 30px;
     }
@@ -276,9 +289,5 @@ ul {
 
     .project-tile {
         margin:2.5px;
-    }
-
-    #welcome-section {
-    padding: 40px 10px 10px 10px;
     }
 }
