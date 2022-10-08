@@ -159,8 +159,7 @@ p {
 
 .project-tile img {
     border-radius:10px;
-    max-width:450px;
-    height:225px;
+    max-width:400px;
 }
 
 ul {
@@ -173,8 +172,6 @@ ul {
 @media (max-width: 1275px) {
 
     .project-tile img {
-        height:200px;
-        object-fit:cover;
         width:375px;
     }
 }
@@ -240,7 +237,6 @@ ul {
     }
 
     .project-tile img {
-        height:175px;
         width:325px;
     }    
 }
