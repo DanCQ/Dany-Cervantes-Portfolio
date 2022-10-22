@@ -94,13 +94,35 @@ h3 {
     font-family: "savoye let", "brush script mt";
 }
 
+.left-arrow img,
+.right-arrow img {
+    width:60px;
+}
+
+.left-arrow,
+.right-arrow {
+    cursor:pointer;
+    display:flex;
+        align-items: center;
+        justify-content: center;
+    min-height:100vh;
+    min-width:10vw;
+    visibility:hidden;
+}
+
+.left-arrow {
+    position:absolute;
+        left:0;
+}
+
 #navbar {
     font-family: "luminari", "cochin" ;
     font-weight: bold;
     margin:10px;
     position:fixed;
     right:0;
-    top:0;   
+    top:0;
+    z-index:1;   
 }
 
 #navbar a {
@@ -160,6 +182,11 @@ p {
 .project-tile img {
     border-radius:10px;
     max-width:400px;
+}
+
+.right-arrow {
+    position:absolute;
+        right:0;
 }
 
 ul {
