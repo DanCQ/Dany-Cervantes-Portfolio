@@ -96,6 +96,7 @@ h3 {
 
 .left-arrow img,
 .right-arrow img {
+    visibility:hidden;
     width:60px;
 }
 
