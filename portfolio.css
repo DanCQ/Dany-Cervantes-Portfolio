@@ -58,7 +58,7 @@ body {
         justify-content: center;
     font-weight: bold;
     min-height:100vh;
-    min-width:300px;
+    min-width:250px;
     width:35vw;
     position:absolute;
     transition: ease-in-out 500ms;
@@ -303,9 +303,21 @@ ul {
         margin-top: 30px;
     }
 
+    #carousel-left {
+        min-height: 80vh;
+    }
+
+    #carousel-middle {
+        min-height: 90vh;
+    }
+
+    #carousel-right {
+        min-height:80vh;
+    }
+
     #contacts {
         gap:20px;
-        padding:25px;
+        padding:20px;
     }
 
     #navbar li {
