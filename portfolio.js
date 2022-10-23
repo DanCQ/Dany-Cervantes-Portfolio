@@ -1,6 +1,7 @@
 let arrowLeft = document.querySelector(".arrow-left");
 let arrowRight = document.querySelector(".arrow-right");
-var one, two, three, four, five, six, seven;
+let one, two, three, four, five, six, seven;
+
 
 let array = [
     one = {
@@ -45,6 +46,7 @@ let j = randomRange(0, array.length - 1);
 let i = j - 1;
 let k = j + 1;
 
+
 //Returns a random number within a chosen range
 function randomRange(min,max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -52,11 +54,24 @@ function randomRange(min,max) {
 //Math.random() returns a random decimal between 0 - 0.99
 }
 
-
 arrowLeft.onclick = function() { 
     i--;
     j--;
     k--;
+
+    arrayCountCheck();
+};
+
+arrowRight.onclick = function() {
+    i++;
+    j++;
+    k++;
+
+    arrayCountCheck();
+};
+
+function arrayCountCheck() {
+    
     if(i < 0) {
         i = array.length - 1;
     }
@@ -66,13 +81,7 @@ arrowLeft.onclick = function() {
     if(k < 0) {
         k = array.length - 1;
     }
-    displayOn();
-};
-
-arrowRight.onclick = function() {
-    i++;
-    j++;
-    k++;
+    
     if(i > array.length - 1) {
         i = 0;
     }
@@ -82,8 +91,9 @@ arrowRight.onclick = function() {
     if(k > array.length - 1) {
         k = 0;
     }
+
     displayOn();
-};
+}
 
     
 function displayOn() {
@@ -122,8 +132,8 @@ function displayOn() {
 }
 
 
-window.onload = function() { 
+window.onload = function() {
+    
+    arrayCountCheck();
    
-    displayOn();
-
 };
