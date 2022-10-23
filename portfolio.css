@@ -17,10 +17,90 @@ a {
     margin-top:60px;
 }
 
+.arrow-left,
+.arrow-right {
+    cursor:pointer;
+    display:flex;
+        align-items: center;
+        justify-content: center;
+    min-height:100vh;
+    min-width:10vw;
+}
+
+.arrow-left {
+    position:absolute;
+        left:0;
+}
+
+.arrow-left img,
+.arrow-right img {
+    width:50px;
+}
+
+.arrow-right {
+    position:absolute;
+        right:0;
+}
+
 body {
     font-family: "raleway", "roboto", "arial", sans-serif;
     height:100%;
     margin:0;
+    width:100%;
+}
+
+.carousel {
+    border-radius:10px;
+    box-shadow: 0px 0px 10px 2px lightgoldenrodyellow;
+    display:flex;
+        align-items: center;
+        justify-content: center;
+    font-weight: bold;
+    min-height:100vh;
+    min-width:300px;
+    width:35vw;
+    position:absolute;
+    transition-duration: 500ms;
+    z-index:1;
+}
+
+.carousel div { 
+    cursor:pointer;
+    display:flex;
+        align-items: center;
+        justify-content: center;
+    height:100%;
+    position:absolute;
+    width:100%;
+    z-index:1;
+}
+
+#carousel-left {
+    min-height: 90vh;
+    min-width:25vw;
+    position:absolute;
+        left:10%;
+    z-index:0;
+}
+
+#carousel-right {
+    min-height: 90vh;
+    min-width:25vw;
+    position:absolute;
+        right:10%;
+    z-index:0;
+}
+
+.name {
+    background:linear-gradient(wheat,lightgoldenrodyellow);
+    color:coral;
+    font-family:"luminari", "cochin";
+    font-size:1.4rem;
+    font-weight:bold;
+    padding:10px 0px;
+    position:absolute;
+        bottom:25px;
+    text-shadow: 0px 0px 0.5px indigo;
     width:100%;
 }
 
@@ -94,28 +174,6 @@ h3 {
     font-family: "savoye let", "brush script mt";
 }
 
-.left-arrow img,
-.right-arrow img {
-    visibility:hidden;
-    width:60px;
-}
-
-.left-arrow,
-.right-arrow {
-    cursor:pointer;
-    display:flex;
-        align-items: center;
-        justify-content: center;
-    min-height:100vh;
-    min-width:10vw;
-    visibility:hidden;
-}
-
-.left-arrow {
-    position:absolute;
-        left:0;
-}
-
 #navbar {
     font-family: "luminari", "cochin" ;
     font-weight: bold;
@@ -123,7 +181,7 @@ h3 {
     position:fixed;
     right:0;
     top:0;
-    z-index:1;   
+    z-index:2;   
 }
 
 #navbar a {
@@ -154,7 +212,7 @@ p {
     display:flex;
     flex-wrap: wrap;
     gap:10px;
-    justify-content: space-around;
+    justify-content: center;
     margin:auto;
     min-width:330px;
     min-height:100vh;
@@ -183,11 +241,8 @@ p {
 .project-tile img {
     border-radius:10px;
     max-width:400px;
-}
 
-.right-arrow {
-    position:absolute;
-        right:0;
+    visibility: hidden;
 }
 
 ul {
