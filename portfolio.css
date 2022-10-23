@@ -25,6 +25,7 @@ a {
         justify-content: center;
     min-height:100vh;
     min-width:10vw;
+    z-index:1;
 }
 
 .arrow-left {
@@ -60,7 +61,7 @@ body {
     min-width:300px;
     width:35vw;
     position:absolute;
-    transition-duration: 500ms;
+    transition: ease-in-out 500ms;
     z-index:1;
 }
 
@@ -91,19 +92,6 @@ body {
     z-index:0;
 }
 
-.name {
-    background:linear-gradient(wheat,lightgoldenrodyellow);
-    color:coral;
-    font-family:"luminari", "cochin";
-    font-size:1.4rem;
-    font-weight:bold;
-    padding:10px 0px;
-    position:absolute;
-        bottom:25px;
-    text-shadow: 0px 0px 0.5px indigo;
-    width:100%;
-}
-
 #contacts {
     align-items: center;
     background-color: ghostwhite;
@@ -125,16 +113,6 @@ body {
 #contacts img {
     width:100px;
     height:100px;
-}
-
-figcaption {
-    font-family:cochin;
-    font-weight:bold;
-    text-align: center;
-}
-
-figure {
-    margin:5px;
 }
 
 footer {
@@ -172,6 +150,19 @@ h3 {
 
 .hello {
     font-family: "savoye let", "brush script mt";
+}
+
+.name {
+    background:linear-gradient(wheat,lightgoldenrodyellow);
+    color:coral;
+    font-family:"luminari", "cochin";
+    font-size:1.4rem;
+    font-weight:bold;
+    padding:10px 0px;
+    position:absolute;
+        bottom:25px;
+    text-shadow: 0px 0px 0.5px indigo;
+    width:100%;
 }
 
 #navbar {
@@ -220,44 +211,12 @@ p {
     text-align: center;
 }
 
-.project-tile {
-    background:linear-gradient(wheat,lightgoldenrodyellow);
-    border-radius:15px;
-    box-shadow: 0px 0px 5px 0.5px lightgoldenrodyellow;
-    font-weight: bold;
-    margin:12px 0px;
-}
-
-.project-tile a {
-    color:coral;
-    text-shadow: 0px 0px 0.5px indigo;
-}
-
-.project-tile figcaption {
-    font-family:"luminari", "cochin";
-    font-weight:100;
-}
-
-.project-tile img {
-    border-radius:10px;
-    max-width:400px;
-
-    visibility: hidden;
-}
-
 ul {
     list-style-type: none;
     margin:0;
     padding:0;
 }
 
-
-@media (max-width: 1275px) {
-
-    .project-tile img {
-        width:375px;
-    }
-}
 
 @media (max-width: 1125px) {
     
@@ -268,14 +227,7 @@ ul {
     .about p:nth-of-type(2) {
         margin-top:50px;
     }
-
-    .project-tile {
-        margin:5px;
-    }
-
-    .project-tile img {
-        width:350px;
-    }    
+   
 }
 
 @media (max-width: 840px) {
@@ -313,15 +265,7 @@ ul {
         display:inline;
         margin:0px 50px;
     }
-
-    #projects {
-        gap:6px;
-        padding:15px 5px;
-    }
-
-    .project-tile img {
-        width:325px;
-    }    
+  
 }
 
 
@@ -370,7 +314,4 @@ ul {
         margin:0px 20px;
     }
 
-    .project-tile {
-        margin:2.5px;
-    }
 }
