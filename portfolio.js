@@ -118,17 +118,14 @@ function displayOn() {
     carouselRight.style.background = array[k].img;
     carouselRight.onclick = function() { window.open( array[k].href ) };
 
-    carouselLeft.style.backgroundPosition = "center";
-    carouselLeft.style.backgroundRepeat = "no-repeat";
-    carouselLeft.style.backgroundSize = "cover";
-    
-    carouselMiddle.style.backgroundPosition = "center";
-    carouselMiddle.style.backgroundRepeat = "no-repeat";
-    carouselMiddle.style.backgroundSize = "cover";
-
-    carouselRight.style.backgroundPosition = "center";
-    carouselRight.style.backgroundRepeat = "no-repeat";
-    carouselRight.style.backgroundSize = "cover";
+    function picture(background) {
+        background.style.backgroundPosition = "center";
+        background.style.backgroundRepeat = "no-repeat";
+        background.style.backgroundSize = "cover";
+    }
+    picture(carouselLeft);
+    picture(carouselMiddle);
+    picture(carouselRight);
 }
 
 
