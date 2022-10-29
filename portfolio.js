@@ -1,6 +1,6 @@
 let arrowLeft = document.querySelector(".arrow-left");
 let arrowRight = document.querySelector(".arrow-right");
-let one, two, three, four, five, six, seven;
+let one, two, three, four, five, six, seven, eight;
 
 
 let array = [
@@ -38,6 +38,11 @@ let array = [
     name: "Spooky",
     img: "url(assets/spooky.jpg)",
     href: "https://dancq.github.io/Spooky/"
+},
+    eight = {
+    name: "Pig Latin Translator",
+    img: "url(assets/piglatin.jpg)",
+    href: "https://dancq.github.io/Pig-Latin-Translator/"
 }
 ];
 
