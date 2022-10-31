@@ -58,7 +58,7 @@ body {
         justify-content: center;
     font-weight: bold;
     min-height:100vh;
-    min-width:300px;
+    min-width:290px;
     width:35vw;
     position:absolute;
     transition: ease-in-out 500ms;
