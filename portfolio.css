@@ -58,7 +58,7 @@ body {
         justify-content: center;
     font-weight: bold;
     min-height:100vh;
-    min-width:325px;
+    min-width:300px;
     width:35vw;
     position:absolute;
     transition: ease-in-out 500ms;
@@ -78,7 +78,7 @@ body {
 
 #carousel-left {
     min-height: 90vh;
-    min-width:25vw;
+    min-width:30vw;
     position:absolute;
         left:10%;
     z-index:0;
@@ -86,7 +86,7 @@ body {
 
 #carousel-right {
     min-height: 90vh;
-    min-width:25vw;
+    min-width:30vw;
     position:absolute;
         right:10%;
     z-index:0;
