@@ -298,6 +298,10 @@ ul {
 
 @media (max-width:800px) {
 
+    #certification figcaption {
+        font-size:16px;
+    }
+
     footer li {
         font-size:x-small;
         margin:0 5px;
@@ -314,10 +318,6 @@ ul {
 
     .about p:nth-of-type(2) {
         margin-top: 40px;
-    }
-
-    #certification figcaption {
-        font-size:16px;
     }
 
     #contacts {
