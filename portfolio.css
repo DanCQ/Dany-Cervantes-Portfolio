@@ -115,6 +115,7 @@ body {
 #certification figcaption {
     color:midnightblue;
     font-size:17px;
+    font-family: "roboto";
     font-weight: bolder;
     padding: 5px;
     text-shadow: 0px 0px 0.5px indigo;
