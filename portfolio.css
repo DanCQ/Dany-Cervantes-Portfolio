@@ -44,6 +44,7 @@ a {
 }
 
 body {
+    background-color:linen;
     font-family: "raleway", "roboto", "arial", sans-serif;
     height:100%;
     margin:0;
