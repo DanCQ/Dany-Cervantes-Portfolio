@@ -8,7 +8,7 @@ a {
     margin:auto;
     min-width:330px;
     min-height: 100vh;
-    padding:50px 10px 10px 10px;
+    padding:50px 15px 15px 15px;
     text-align: center;
     text-shadow: 0px 0px 0.5px indigo;
 }
@@ -256,10 +256,6 @@ ul {
 
 @media (max-width: 1075px) {
 
-    footer li {
-        margin:0 10px;
-    }
-
     #certification {
         gap:10px;
         padding:10px;
@@ -272,6 +268,10 @@ ul {
     #contacts img {
         width:95px;
         height:95px;
+    }
+    
+    footer li {
+        margin:0 10px;
     }
 
     #navbar {
