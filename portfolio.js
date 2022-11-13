@@ -1,49 +1,47 @@
 let arrowLeft = document.querySelector(".arrow-left");
 let arrowRight = document.querySelector(".arrow-right");
-let one, two, three, four, five, six, seven, eight;
-
 
 let array = [
-    one = {
+    {
     name: "The Anatomy of the Guitar",
     img: "url(assets/guitar.jpg)",
     href: "https://dancq.github.io/The-Anatomy-of-the-Guitar/"
-},
-    two = {
+    },
+    {
     name: "Bouncing Colors",
     img: "url(assets/colors.jpg)",
     href: "https://dancq.github.io/Bouncing-Colors/"
-},
-    three = {
+    },
+    {
     name: "Digital Clock",
     img: "url(assets/clock.jpg)",
     href: "https://dancq.github.io/Digital-Clock--Javascript/"
-},
-    four = {
+    },
+    {
     name: "George R. R. Martin Tribute",
     img: "url(assets/grrm.jpg)",
     href: "https://dancq.github.io/George-R-R-Martin-Tribute/"
-},
-    five = {
+    },
+    {
     name: "Lost Treasure",
     img: "url(assets/treasure.jpg)",
     href: "https://dancq.github.io/Lost-Treasure/"
-},
-    six = {
+    },
+    {
     name: "Robot Spoof",
     img: "url(assets/robot.jpg)",
     href: "https://dancq.github.io/Robot-Spoof/"
-},
-    seven = {
+    },
+    {
     name: "Spooky",
     img: "url(assets/spooky.jpg)",
     href: "https://dancq.github.io/Spooky/"
-},
-    eight = {
+    },
+    {
     name: "Pig Latin Translator",
     img: "url(assets/piglatin.jpg)",
     href: "https://dancq.github.io/Pig-Latin-Translator/"
-}
+    }
 ];
 
 
