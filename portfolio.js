@@ -41,6 +41,11 @@ let array = [
     name: "Pig Latin Translator",
     img: "url(assets/piglatin.jpg)",
     href: "https://dancq.github.io/Pig-Latin-Translator/"
+    },
+    {
+    name: "Starship Vs Asteroid",
+    img: "url(assets/starship.jpg)",
+    href: "https://dancq.github.io/Starship-Vs-Asteroid/"
     }
 ];
 
