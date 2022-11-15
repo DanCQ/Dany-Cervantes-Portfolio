@@ -43,9 +43,9 @@ let array = [
     href: "https://dancq.github.io/Pig-Latin-Translator/"
     },
     {
-    name: "Starship Vs Asteroid",
+    name: "Starship in Space",
     img: "url(assets/starship.jpg)",
-    href: "https://dancq.github.io/Starship-Vs-Asteroid/"
+    href: "https://DanCQ.github.io/Starship-in-Space"
     }
 ];
 
