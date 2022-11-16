@@ -51,8 +51,11 @@ let array = [
 
 
 let j = randomRange(0, array.length - 1);
+
+let h = j - 2;
 let i = j - 1;
 let k = j + 1;
+let l = j + 2;
 
 
 //Returns a random number within a chosen range
@@ -63,23 +66,29 @@ function randomRange(min,max) {
 }
 
 arrowLeft.onclick = function() { 
+    h--;
     i--;
     j--;
     k--;
+    l--;
 
     arrayCountCheck();
 };
 
 arrowRight.onclick = function() {
+    h++;
     i++;
     j++;
     k++;
+    l++;
 
     arrayCountCheck();
 };
 
 function arrayCountCheck() {
-    
+    if(h < 0) {
+        h = array.length -1;
+    }
     if(i < 0) {
         i = array.length - 1;
     }
@@ -89,7 +98,13 @@ function arrayCountCheck() {
     if(k < 0) {
         k = array.length - 1;
     }
-    
+    if(l < 0) {
+        l = array.length - 1;
+    }
+
+    if(h > array.length - 1) {
+        h = 0;
+    } 
     if(i > array.length - 1) {
         i = 0;
     }
@@ -98,6 +113,9 @@ function arrayCountCheck() {
     }
     if(k > array.length - 1) {
         k = 0;
+    }
+    if(l > array.length - 1) {
+        l = 0;
     }
 
     displayOn();
@@ -137,8 +155,19 @@ function displayOn() {
 }
 
 
+//Investigate: I believe this will load images into the cache
+function upComing() {
+    let nextLeft = new Image();
+    let nextRight = new Image();
+    //lowers loading time for carousel
+    nextLeft = array[h].img; //preloads next image into cache
+    nextRight = array[l].img; //preloads next image into cache
+}
+
+
 window.onload = function() {
     
     arrayCountCheck();
+    upComing();
    
 };
