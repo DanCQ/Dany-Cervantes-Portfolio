@@ -152,14 +152,16 @@ function displayOn() {
     picture(carouselLeft);
     picture(carouselMiddle);
     picture(carouselRight);
+
+    next();
 }
 
 
-//Investigate: I believe this will load images into the cache
-function upComing() {
+//Investigate: I believe will lower loading time for carousel
+function next() {
     let nextLeft = new Image();
     let nextRight = new Image();
-    //lowers loading time for carousel
+    
     nextLeft = array[h].img; //preloads next image into cache
     nextRight = array[l].img; //preloads next image into cache
 }
@@ -168,6 +170,5 @@ function upComing() {
 window.onload = function() {
     
     arrayCountCheck();
-    upComing();
    
 };
