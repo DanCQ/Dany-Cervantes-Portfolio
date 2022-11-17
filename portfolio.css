@@ -62,7 +62,7 @@ body {
     min-width:290px;
     width:35vw;
     position:absolute;
-    transition: ease-in-out 500ms;
+    transition: ease-in-out 100ms;
     z-index:1;
 }
 
