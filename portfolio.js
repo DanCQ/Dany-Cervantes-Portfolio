@@ -28,9 +28,19 @@ let array = [
     href: "https://dancq.github.io/Lost-Treasure/"
     },
     {
+    name: "Pig Latin Translator",
+    img: "url(assets/piglatin.jpg)",
+    href: "https://dancq.github.io/Pig-Latin-Translator/"
+    },
+    {
     name: "Robot Spoof",
     img: "url(assets/robot.jpg)",
     href: "https://dancq.github.io/Robot-Spoof/"
+    },
+    {
+    name: "Speak With The Matrix",
+    img: "url(assets/matrix.jpg)",
+    href: "https://dancq.github.io/Speak-With-The-Matrix/"
     },
     {
     name: "Spooky",
@@ -38,15 +48,11 @@ let array = [
     href: "https://dancq.github.io/Spooky/"
     },
     {
-    name: "Pig Latin Translator",
-    img: "url(assets/piglatin.jpg)",
-    href: "https://dancq.github.io/Pig-Latin-Translator/"
-    },
-    {
     name: "Starship in Space",
     img: "url(assets/starship.jpg)",
     href: "https://DanCQ.github.io/Starship-in-Space"
     }
+
 ];
 
 
@@ -135,7 +141,6 @@ function displayOn() {
     picture(carouselLeft);
     picture(carouselMiddle);
     picture(carouselRight);
-
 }
 
 
