@@ -151,26 +151,11 @@ body {
 
 #contacts img {
     width:100px;
-    height:100px;
 }
 
 footer {
     background-color: whitesmoke;
-    display: flex;
-        justify-content:space-around;
-    font-family: monospace;
-    padding:5px;
-}
-
-footer a {
-    color:brown;
-}
-
-footer li {
-    display:inline-block;
-    font-size:small;
-    margin:0 25px;
-    padding-bottom:1px;
+    height:1rem;
 }
 
 h1 {
@@ -268,11 +253,6 @@ ul {
 
     #contacts img {
         width:95px;
-        height:95px;
-    }
-    
-    footer li {
-        margin:0 10px;
     }
 
     #navbar {
@@ -298,11 +278,6 @@ ul {
         font-size:16px;
     }
 
-    footer li {
-        font-size:x-small;
-        margin:0 5px;
-    }
-
     #navbar li {
         margin:0 4rem;
     }
@@ -323,7 +298,6 @@ ul {
 
     #contacts img {
         width:90px;
-        height:90px;
     }
 
     #navbar li {
