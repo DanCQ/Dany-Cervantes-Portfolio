@@ -69,17 +69,17 @@ function randomRange(min,max) {
 }
 
 arrowLeft.onclick = function() { 
-    i--;
-    j--;
-    k--;
+    i++;
+    j++;
+    k++;
 
     arrayCountCheck();
 };
 
 arrowRight.onclick = function() {
-    i++;
-    j++;
-    k++;
+    i--;
+    j--;
+    k--;
 
     arrayCountCheck();
 };
