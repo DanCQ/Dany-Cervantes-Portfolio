@@ -13,6 +13,11 @@ let array = [
     href: "https://dancq.github.io/Bouncing-Colors/"
     },
     {
+    name: "Canvas Workshop",
+    img: "url(assets/workshop.jpg)",
+    href: "https://dancq.github.io/Canvas-Workshop/"
+    },
+    {
     name: "Digital Clock",
     img: "url(assets/clock.jpg)",
     href: "https://dancq.github.io/Digital-Clock--Javascript/"
