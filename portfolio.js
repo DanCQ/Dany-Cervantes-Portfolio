@@ -33,9 +33,19 @@ let array = [
     href: "https://dancq.github.io/Lost-Treasure/"
     },
     {
+    name: "Perlin Snake",
+    img: "url(assets/snake.jpg)",
+    href: "https://dancq.github.io/Perlin-Snake/"
+    },
+    {
     name: "Pig Latin Translator",
     img: "url(assets/piglatin.jpg)",
     href: "https://dancq.github.io/Pig-Latin-Translator/"
+    },
+    {
+    name: "Sine Waves",
+    img: "url(assets/sinewave.jpeg)",
+    href: "https://dancq.github.io/Sine-Waves/"
     },
     {
     name: "Robot Spoof",
