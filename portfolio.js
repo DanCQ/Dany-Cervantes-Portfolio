@@ -23,6 +23,11 @@ let array = [
     href: "https://dancq.github.io/Digital-Clock--Javascript/"
     },
     {
+    name: "Fireworks",
+    img: "url(assets/fireworks.jpg)",
+    href: "https://dancq.github.io/Fireworks/"
+    },
+    {
     name: "George R. R. Martin Tribute",
     img: "url(assets/grrm.jpg)",
     href: "https://dancq.github.io/George-R-R-Martin-Tribute/"
