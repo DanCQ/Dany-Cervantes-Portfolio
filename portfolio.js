@@ -53,6 +53,11 @@ let array = [
     href: "https://dancq.github.io/Sine-Waves/"
     },
     {
+    name: "Spinning Galaxy",
+    img: "url(assets/galaxy.jpg)",
+    href: "https://dancq.github.io/Spinning-Galaxy/"
+    },
+    {
     name: "Robot Spoof",
     img: "url(assets/robot.jpg)",
     href: "https://dancq.github.io/Robot-Spoof/"
