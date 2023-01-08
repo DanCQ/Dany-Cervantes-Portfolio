@@ -63,6 +63,11 @@ let array = [
     href: "https://dancq.github.io/Robot-Spoof/"
     },
     {
+    name: "Space Shooter",
+    img: "url(assets/shooter.jpg",
+    href: "https://dancq.github.io/Space-Shooter/"
+    },
+    {
     name: "Speak With The Matrix",
     img: "url(assets/matrix.jpg)",
     href: "https://dancq.github.io/Speak-With-The-Matrix/"
@@ -73,16 +78,10 @@ let array = [
     href: "https://dancq.github.io/Spooky/"
     },
     {
-    name: "Space Shooter",
-    img: "url(assets/shooter.jpg",
-    href: "https://dancq.github.io/Space-Shooter/"
-    },
-    {
     name: "Starship in Space",
     img: "url(assets/starship.jpg)",
     href: "https://DanCQ.github.io/Starship-in-Space"
     }
-    
 ];
 
 
