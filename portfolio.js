@@ -73,6 +73,11 @@ let array = [
     href: "https://dancq.github.io/Spooky/"
     },
     {
+    name: "Space Shooter",
+    img: "url(assets/shooter.jpg",
+    href: "https://dancq.github.io/Space-Shooter/"
+    },
+    {
     name: "Starship in Space",
     img: "url(assets/starship.jpg)",
     href: "https://DanCQ.github.io/Starship-in-Space"
@@ -145,7 +150,6 @@ function displayOn() {
     let carouselRight = document.getElementById("carousel-right");
     let nameRight = document.getElementById("name-right");
 
-
     nameLeft.innerHTML = array[i].name;
     carouselLeft.style.background = array[i].img;
     carouselLeft.onclick = function() { window.open( array[i].href ) };
@@ -166,6 +170,7 @@ function displayOn() {
     picture(carouselLeft);
     picture(carouselMiddle);
     picture(carouselRight);
+
 }
 
 
