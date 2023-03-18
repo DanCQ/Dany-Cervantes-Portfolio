@@ -176,6 +176,10 @@ h3 {
     font-family: "savoye let", "brush script mt";
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .name {
     background:linear-gradient(wheat,lightgoldenrodyellow);
     color:coral;
