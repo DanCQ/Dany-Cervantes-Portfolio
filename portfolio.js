@@ -39,7 +39,7 @@ let array = [
     },
     {
         name: "Notfux",
-        img: "url(assets/notfux.jpg",
+        img: "url(assets/notfux.png",
         href: "https://dancq.github.io/Not-Netflix/"
     },
     {
