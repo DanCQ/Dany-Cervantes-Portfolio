@@ -4,87 +4,87 @@ let arrowRight = document.querySelector(".arrow-right");
 let array = [
     {
         name: "The Anatomy of the Guitar",
-        img: "url(assets/guitar.jpg)",
+        img: "assets/guitar.jpg",
         href: "https://dancq.github.io/The-Anatomy-of-the-Guitar/"
     },
     {
         name: "Bouncing Colors",
-        img: "url(assets/colors.jpg)",
+        img: "assets/colors.jpg",
         href: "https://dancq.github.io/Bouncing-Colors/"
     },
     {
         name: "Canvas Workshop",
-        img: "url(assets/workshop.jpg)",
+        img: "assets/workshop.jpg",
         href: "https://dancq.github.io/Canvas-Workshop/"
     },
     {
         name: "Digital Clock",
-        img: "url(assets/clock.jpg)",
+        img: "assets/clock.jpg",
         href: "https://dancq.github.io/Digital-Clock--Javascript/"
     },
     {
         name: "Fireworks",
-        img: "url(assets/fireworks.jpg)",
+        img: "assets/fireworks.jpg",
         href: "https://dancq.github.io/Fireworks/"
     },
     {
         name: "George R. R. Martin Tribute",
-        img: "url(assets/grrm.jpg)",
+        img: "assets/grrm.jpg",
         href: "https://dancq.github.io/George-R-R-Martin-Tribute/"
     },
     {
         name: "Lost Treasure",
-        img: "url(assets/treasure.jpg)",
+        img: "assets/treasure.jpg",
         href: "https://dancq.github.io/Lost-Treasure/"
     },
     {
         name: "Notfux",
-        img: "url(assets/notfux.png",
+        img: "assets/notfux.png",
         href: "https://dancq.github.io/Not-Netflix/"
     },
     {
         name: "Perlin Snake",
-        img: "url(assets/snake.jpg)",
+        img: "assets/snake.jpg",
         href: "https://dancq.github.io/Perlin-Snake/"
     },
     {
         name: "Pig Latin Translator",
-        img: "url(assets/piglatin.jpg)",
+        img: "assets/piglatin.jpg",
         href: "https://dancq.github.io/Pig-Latin-Translator/"
     },
     {
         name: "Sine Waves",
-        img: "url(assets/sinewave.jpg)",
+        img: "assets/sinewave.jpg",
         href: "https://dancq.github.io/Sine-Waves/"
     },
     {
         name: "Spinning Galaxy",
-        img: "url(assets/galaxy.jpg)",
+        img: "assets/galaxy.jpg",
         href: "https://dancq.github.io/Spinning-Galaxy/"
     },
     {
         name: "Robot Spoof",
-        img: "url(assets/robot.jpg)",
+        img: "assets/robot.jpg",
         href: "https://dancq.github.io/Robot-Spoof/"
     },
     {
         name: "Space Shooter",
-        img: "url(assets/shooter.jpg",
+        img: "assets/shooter.jpg",
         href: "https://dancq.github.io/Space-Shooter/"
     },
     {
         name: "Speak With The Matrix",
-        img: "url(assets/matrix.jpg)",
+        img: "assets/matrix.jpg",
         href: "https://dancq.github.io/Speak-With-The-Matrix/"
     },
     {
         name: "Spooky",
-        img: "url(assets/spooky.jpg)",
+        img: "assets/spooky.jpg",
         href: "https://dancq.github.io/Spooky/"
     },
     {
         name: "Starship in Space",
-        img: "url(assets/starship.jpg)",
+        img: "assets/starship.jpg",
         href: "https://DanCQ.github.io/Starship-in-Space"
     }
 ];
@@ -142,6 +142,16 @@ function arrayCountCheck() {
     displayOn();
 }
 
+
+function preloadImages() {
+
+    array.forEach(obj => {
+
+        let img = new Image();
+        img.src = obj.img;
+    });
+}
+
     
 function displayOn() {
 
@@ -154,16 +164,16 @@ function displayOn() {
     let carouselRight = document.getElementById("carousel-right");
     let nameRight = document.getElementById("name-right");
 
-    nameLeft.innerHTML = array[i].name;
-    carouselLeft.style.background = array[i].img;
+    nameLeft.innerHTML = array[i].name; //"url(assets/matrix.jpg)",
+    carouselLeft.style.background = `url(${array[i].img})`;
     carouselLeft.onclick = function() { window.open( array[i].href ) };
     
     nameMiddle.innerHTML = array[j].name;
-    carouselMiddle.style.background = array[j].img;
+    carouselMiddle.style.background = `url(${array[j].img})`;
     carouselMiddle.onclick = function() { window.open( array[j].href ) };
 
     nameRight.innerHTML = array[k].name;
-    carouselRight.style.background = array[k].img;
+    carouselRight.style.background = `url(${array[k].img})`;
     carouselRight.onclick = function() { window.open( array[k].href ) };
 
     function picture(background) {
@@ -181,5 +191,7 @@ function displayOn() {
 window.onload = function() {
     
     arrayCountCheck();
+
+    setTimeout(function() { preloadImages() }, 1500);
    
 };
