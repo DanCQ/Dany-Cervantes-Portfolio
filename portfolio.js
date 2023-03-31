@@ -143,6 +143,7 @@ function arrayCountCheck() {
 }
 
 
+//preloads images into cache
 function preloadImages() {
 
     array.forEach(obj => {
@@ -192,6 +193,6 @@ window.onload = function() {
     
     arrayCountCheck();
 
-    setTimeout(function() { preloadImages() }, 1500);
+    setTimeout(function() { preloadImages() }, 3000); //waits for visible images to load first
    
 };
