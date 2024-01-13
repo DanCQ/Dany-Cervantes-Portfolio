@@ -8,6 +8,11 @@ let array = [
         href: "https://dancq.github.io/The-Anatomy-of-the-Guitar/"
     },
     {
+        name: "Bitcoin Halving Countdown",
+        img: "assets/bitcoin.jpg",
+        href: "https://dancq.github.io/Bitcoin-Halving-Countdown/"
+    },
+    {
         name: "Bouncing Colors",
         img: "assets/colors.jpg",
         href: "https://dancq.github.io/Bouncing-Colors/"
@@ -151,6 +156,7 @@ function preloadImages() {
         let img = new Image();
         img.src = obj.img;
     });
+
 }
 
     
