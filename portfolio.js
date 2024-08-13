@@ -91,6 +91,11 @@ let array = [
         name: "Starship in Space",
         img: "assets/starship.jpg",
         href: "https://DanCQ.github.io/Starship-in-Space"
+    },
+    {
+        name: 'Universal Language Translator',
+        img: 'assets/translator.jpg',
+        href: 'https://dancq.github.io/Language-Translator/'
     }
 ];
 
@@ -199,6 +204,6 @@ window.onload = function() {
     
     arrayCountCheck();
 
-    setTimeout(function() { preloadImages() }, 3000); //waits for visible images to load first
-   
+    setTimeout(function() { preloadImages() }, 2500); //waits for visible images to load first
+    
 };
