@@ -45,7 +45,7 @@ let array = [
     {
         name: "Notfux",
         img: "assets/notfux.png",
-        href: "https://dancq.github.io/Not-Netflix/"
+        href: "https://dancq.github.io/AStreamingSite/"
     },
     {
         name: "Perlin Snake",
